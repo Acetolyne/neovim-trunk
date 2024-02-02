@@ -19,7 +19,7 @@ require("lazy").setup({
 	{
 		dir = "<path-to-repo>/neovim-trunk",
 		lazy = false,
-		config = {
+		opts = {
 			-- trunkPath = "trunk",
 			-- lspArgs = {},
 			-- formatOnSave = true,

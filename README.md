@@ -52,7 +52,7 @@ require("lazy").setup({
 		-- optionally pin the version
 		-- tag = "v0.1.1",
 		-- these are optional config arguments (defaults shown)
-		config = {
+		opts = {
 			-- trunkPath = "trunk",
 			-- lspArgs = {},
 			-- formatOnSave = true,
@@ -103,7 +103,7 @@ return require("packer").startup(function(use)
     tag = "*",
     requires = {"nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim"},
 		-- these are optional config arguments (defaults shown)
-    config = function() require("trunk").setup({
+    opts = function() require("trunk").setup({
       -- trunkPath = "trunk",
       -- formatOnSave = true,
       -- lspArgs = {},
